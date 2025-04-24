@@ -6,6 +6,19 @@
     color: var(--color-black);
     background-color: var(--color-gray50);
   }
+
+  *::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--color-gray500);
+    border-radius: 40px;
+  }
 }
 
 @theme {
