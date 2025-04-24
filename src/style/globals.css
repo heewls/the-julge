@@ -1,1 +1,34 @@
 @import "tailwindcss";
+
+@layer {
+  body {
+    font-family: "SpoqaHanSansNeo", sans-serif;
+    color: var(--color-black);
+    background-color: var(--color-gray50);
+  }
+}
+
+@theme {
+  --color-white: #ffffff;
+
+  --color-gray50: #fafafa;
+  --color-gray100: #f2f2f3;
+  --color-gray200: #e5e4e7;
+  --color-gray300: #cbc9cf;
+  --color-gray400: #a4a1aa;
+  --color-gray500: #7d7986;
+  --color-black: #111322;
+
+  --color-red100: #ffebe7;
+  --color-red200: #ffaf9b;
+  --color-red300: #ff8d72;
+  --color-red400: #ff4040;
+
+  --color-blue100: #cce6ff;
+  --color-blue200: #0080ff;
+
+  --color-green100: #d4f7d4;
+  --color-green200: #20a81e;
+
+  --color-kakao: #fee500;
+}
