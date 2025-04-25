@@ -1,1 +1,116 @@
 @import "tailwindcss";
+
+@layer {
+  body {
+    font-family: "SpoqaHanSansNeo", sans-serif;
+    color: var(--color-black);
+    background-color: var(--color-gray50);
+  }
+
+  *::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--color-gray500);
+    border-radius: 40px;
+  }
+}
+
+@theme {
+  --color-white: #ffffff;
+
+  --color-gray50: #fafafa;
+  --color-gray100: #f2f2f3;
+  --color-gray200: #e5e4e7;
+  --color-gray300: #cbc9cf;
+  --color-gray400: #a4a1aa;
+  --color-gray500: #7d7986;
+  --color-black: #111322;
+
+  --color-red100: #ffebe7;
+  --color-red200: #ffaf9b;
+  --color-red300: #ff8d72;
+  --color-red400: #ff4040;
+
+  --color-blue100: #cce6ff;
+  --color-blue200: #0080ff;
+
+  --color-green100: #d4f7d4;
+  --color-green200: #20a81e;
+
+  --color-kakao: #fee500;
+}
+
+@theme {
+  --text-bold28: 28px;
+  --text-bold28--line-height: 28px;
+  --text-bold28--font-weight: 700;
+
+  --text-bold20: 20px;
+  --text-bold20--line-height: 20px;
+  --text-bold20--font-weight: 700;
+
+  --text-bold18: 18px;
+  --text-bold18--line-height: 18px;
+  --text-bold18--font-weight: 700;
+
+  --text-medium18: 18px;
+  --text-medium18--line-height: 18px;
+  --text-medium18--font-weight: 500;
+
+  --text-bold16: 16px;
+  --text-bold16--line-height: 20px;
+  --text-bold16--font-weight: 700;
+
+  --text-medium16: 16px;
+  --text-medium16--line-height: 16px;
+  --text-medium16--font-weight: 500;
+
+  --text-regular16: 16px;
+  --text-regular16--line-height: 26px;
+  --text-regular16--font-weight: 400;
+
+  --text-bold14: 14px;
+  --text-bold14--line-height: 14px;
+  --text-bold14--font-weight: 700;
+
+  --text-regular14: 14px;
+  --text-regular14--line-height: 22px;
+  --text-regular14--font-weight: 400;
+
+  --text-regular12: 12px;
+  --text-regular12--line-height: 16px;
+  --text-regular12--font-weight: 400;
+}
+
+@font-face {
+  font-family: "SpoqaHanSansNeo";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SpoqaHanSansNeo";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Medium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SpoqaHanSansNeo";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
